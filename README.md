@@ -1,4 +1,4 @@
-# SummerProject2026
+# Summer Project 2026
 
 ## SUMMER REPORT TITLE: An Investigation of How Neural Networks Can Reconstruct Three-Gamma Annihilation Positions in Positron Emission Tomography
 
