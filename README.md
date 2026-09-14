@@ -1,13 +1,18 @@
 # SummerProject2026
-## SUMMER REPORT TITLE: An Investigation of How Neural Networks Can Reconstruct Three-Gamma Annihilation Positions in Positron Emission Tomography 
 
-The aim of the investigation was to compare how different neural networks predict annihilation sites. The focus developed to investigation of three gamma. The datasets used involved data with no Compton Scattering *'ThreeG_NCS'*. A compressed, smaller root file has been uploaded to each folder, so, if needed, it can be executed, *'augmerged.root'*. 
+## SUMMER REPORT TITLE: An Investigation of How Neural Networks Can Reconstruct Three-Gamma Annihilation Positions in Positron Emission Tomography
 
-### There are two main folders: 
-  **'ARCHIVE NOTEBOOKS':** This is the development models, which is further split into
-      - **'CNN Archive'** and **'MLP Archive'**, which are the respective folders for the CNN and MLP neural networks development. 
-      Where possible, the code has been edited to use the smaller *'augmerged.root'* file.
-      - **'ROOT ARCHIVE'** which were used to get to grips with the simulation data in the beginning stages of the research. 
-  **'FINAL MODELS':** These show the combined models for CNN and MLP, compiled into one notebook to allow for evaluation and comparison. 
-      the **VAE** and **smeared energy** models are kept in one notebook, indicating what   was changed with # but not separated. This is due to the exploratory nature of these models/notebooks and is mostly used for further discussions.
-      the reduced root file, *'augmerged.root'* is in each folder, to execute if needed. 
+The aim of the investigation was to compare how different neural networks predict annihilation sites. The focus developed to the investigation of three-gamma annihilation. The datasets used involved data with no Compton Scattering, *ThreeG_NCS*. A compressed, smaller ROOT file has been uploaded to each folder, so, if needed, it can be executed using *augmerged.root*.
+
+### There are two main folders:
+
+- **ARCHIVE NOTEBOOKS:** This contains the development models and is further split into:
+  - **CNN Archive** – development of the CNN neural networks.
+  - **MLP Archive** – development of the MLP neural networks.
+  - **ROOT Archive** – ROOT files and notebooks used to get to grips with the simulation data during the beginning stages of the research.
+
+  Where possible, the code has been edited to use the smaller *augmerged.root* file.
+
+- **FINAL MODELS:** This contains the combined final models for the CNN and MLP, compiled into notebooks to allow for evaluation and comparison.
+  - **VAE** and **smeared energy** models are kept in one notebook, with changes indicated using `#` comments rather than being separated into different notebooks. This reflects the exploratory nature of these models and their use for further discussion.
+  - The reduced ROOT file, *augmerged.root*, is included in each folder so that the notebooks can be executed if required.
