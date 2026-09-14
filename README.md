@@ -14,5 +14,5 @@ The aim of the investigation was to compare how different neural networks predic
   Where possible, the code has been edited to use the smaller *augmerged.root* file.
 
 - **FINAL MODELS:** This contains the combined final models for the CNN and MLP, compiled into notebooks to allow for evaluation and comparison.
-  - **VAE** and **smeared energy** models are kept in one notebook, with changes indicated using `#` comments rather than being separated into different notebooks. This reflects the exploratory nature of these models and their use for further discussion.
+  - *NOTE* **VAE** and **smeared energy** models are kept in one notebook, with changes indicated using `#` comments rather than being separated into different notebooks. This reflects the exploratory nature of these models and their use for further discussion.
   - The reduced ROOT file, *augmerged.root*, is included in each folder so that the notebooks can be executed if required.
