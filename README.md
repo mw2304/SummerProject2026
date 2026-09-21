@@ -10,10 +10,12 @@ The aim of the investigation was to compare how different neural networks predic
   - **CNN Archive** – development of the CNN neural networks.
   - **MLP Archive** – development of the MLP neural networks.
   - **ROOT Archive** – ROOT files and notebooks used to get to grips with the simulation data during the beginning stages of the research.
+  - **VAE** - notebook using Variational Autoencoder, the focus of the project did not include this, so is moved to archive
 
   Where possible, the code has been edited to use the smaller *augmerged.root* file.
 
 - **FINAL MODELS:** This contains the combined final models 
     - **CNN** and **MLP** : compiled into comparative, multi-approach notebooks to allow for evaluation and comparison.
-  - *NOTE* **VAE** and **smeared energy**: models are kept in one notebook, with changes indicated using `#` comments rather than being separated into different notebooks. This reflects the exploratory nature of these models and their use for further discussion.
+  - *NOTE*  **smeared energy**: models are kept in one notebook, with changes indicated using `#` comments rather than being separated into different notebooks. This reflects the exploratory nature of these models and their use for further discussion.
+  - this includes the comparative plots notebook for smeared energies, where different percentages of smearing are applied on the MLP
   - The reduced ROOT file, *augmerged.root*, is included in each folder so that the notebooks can be executed if required.
