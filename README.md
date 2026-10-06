@@ -19,3 +19,5 @@ The aim of the investigation was to compare how different neural networks predic
   - *NOTE*  **smeared energy**: models are kept in one notebook, with changes indicated using `#` comments rather than being separated into different notebooks. This reflects the exploratory nature of these models and their use for further discussion.
   - this includes the comparative plots notebook for smeared energies, where different percentages of smearing are applied on the MLP
   - The reduced ROOT file, *augmerged.root*, is included in each folder so that the notebooks can be executed if required.
+
+**NOTE** - Due to GitHub Technical issues, the combined CNN and MLP models, as well as the reduced *augmerged.root* file have been copied outside of a folder, so the code/preview of both notebooks is accessible. 
